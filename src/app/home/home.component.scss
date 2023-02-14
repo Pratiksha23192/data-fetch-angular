@@ -1,0 +1,35 @@
+
+.picsum-img-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.product-items{
+  display: grid;
+  place-items: center;
+ 
+  border-radius: 6px;
+  
+}
+.product_card-images{
+  width: 200px;
+  height: 270px;
+}
+
+
+.flexible{
+  display: flex;
+  justify-content: space-around;
+  row-gap: 20px;
+  width: 100%;
+  flex-wrap: wrap;
+  margin: 50px 0;
+}
+.cards{
+  width: 30%;
+}
+.container{
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
